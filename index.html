@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+ 
+</head>
+<body>
+
+
+  <div id="calificacion-contenedor" class="calificacion-contenedor">
+
+    <div class="calificacion-imagen">
+      <img src="./images/icon-star.svg" alt="">
+    </div>
+
+    <h2>How did we do?</h2>
+
+    <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+
+    <div class="calificacion-botones">
+
+      <button id="calificacion-boton" class="calificacion-boton">1</button>
+      <button id="calificacion-boton" class="calificacion-boton">2</button>
+      <button id="calificacion-boton" class="calificacion-boton">3</button>
+      <button id="calificacion-boton" class="calificacion-boton">4</button>
+      <button id="calificacion-boton" class="calificacion-boton">5</button>
+      
+
+    </div>
+
+    <button id="calificacion-submit" class="calificacion-submit">Submit</button>
+
+  </div>
+
+  <div id="respuesta-enviada-contenedor" class="respuesta-enviada-contenedor disabled">
+
+    <div class="respuesta-enviada-img">
+      <img src="./images/illustration-thank-you.svg" alt="">
+    </div>
+
+    <div class="respuesta-elegida">
+      <p>You selected <span id="numerito-elegido"></span> out of 5</p>
+    </div>
+
+    <h2>Thank you!</h2>
+
+    <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesiate to get in touch!</p>
+
+    
+
+  </div>
+
+
+
+ <script src="main.js"></script>
+</body>
+</html>
